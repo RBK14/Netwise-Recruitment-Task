@@ -1,0 +1,5 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Netwise.RecruitmentTask/Netwise.RecruitmentTask.csproj" />
+  </Folder>
+</Solution>
