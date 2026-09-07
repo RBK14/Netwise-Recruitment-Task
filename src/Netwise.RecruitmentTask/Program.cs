@@ -23,13 +23,13 @@ var handler = host.Services.GetRequiredService<IProcessCatFactHandler>();
 
 Console.WriteLine("=== Cat Fact Fetcher ===");
 Console.WriteLine("Press [ENTER] to fetch a cat fact and write it to the output file.");
-Console.WriteLine("Press [ESC] to exit.");
+Console.WriteLine("Press [ESC]/[q]/[Q] to exit.");
 
 while (true)
 {
     var key = Console.ReadKey(intercept: true);
 
-    if (key.Key == ConsoleKey.Escape || key.KeyChar == 'q')
+    if (key.Key == ConsoleKey.Escape || char.ToLower(key.KeyChar) == 'q')
     {
         Console.WriteLine("\nExiting...");
         break;
