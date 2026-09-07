@@ -25,7 +25,7 @@ public class CatFactClient(
 
             if (responseDto is null || string.IsNullOrWhiteSpace(responseDto.Fact))
             {
-                logger.LogWarning("No cat fact available. Recieved null or empty response from API.");
+                logger.LogWarning("No cat fact available. Received null or empty response from API.");
                 return null;
             }
 

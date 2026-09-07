@@ -2,7 +2,7 @@
 
 public class CatFact
 {
-    public string Fact { get; set; }
+    public string Fact { get; }
 
     public CatFact(string fact)
     {

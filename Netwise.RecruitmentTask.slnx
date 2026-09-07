@@ -2,4 +2,7 @@
   <Folder Name="/src/">
     <Project Path="src/Netwise.RecruitmentTask/Netwise.RecruitmentTask.csproj" />
   </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Netwise.RecruitmentTask.Tests/Netwise.RecruitmentTask.Tests.csproj" />
+  </Folder>
 </Solution>
